@@ -207,3 +207,23 @@ p a {
   z-index: 1;
 }
 
+.nav-link {
+  font-family: serif;
+}
+
+.flip {
+  font-family: 'Inconsolata', monospace;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 40px;
+  color: orangered;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-family: 'East Sea Dokdo', cursive;
+  font-family: 'Fascinate Inline', cursive;
+  color: chartreuse;
+}
+.emoji  {
+  font-size: 40px;
+}
