@@ -1,0 +1,168 @@
+.card {
+  background-color: transparent;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: baseline;
+}
+
+h3 {
+  justify-content: flex-start;
+}
+
+.jumbotron {
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  margin-top: 0;
+}
+
+ul { 
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 55px 65px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover {
+  background-color: tomato;
+}
+
+.active {
+  background-color: #4caf4c;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  display: inline;
+  color: white;
+}
+
+p {
+  display: inline;
+}
+
+p a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+  color: white;
+  padding: 30px 45px;
+}
+
+body {
+  background-image: url(/img/pexels-photo-255501.jpeg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+.nav{
+  width:1000px;
+  height: 50px;
+  
+
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+  display: inline;
+
+}
+
+li {
+  display: inline;
+
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 100px 125px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: tomato;
+}
+
+.active {
+  background-color: #4caf4c;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  display: inline;
+  color: white;
+
+}
+
+p {
+  display: inline;
+}
+
+p a {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+  color: white;
+  padding: 30px 45px;
+
+}
+
+
+
+
