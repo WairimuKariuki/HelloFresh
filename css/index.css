@@ -1,0 +1,84 @@
+.pic1 {
+    height: 550px;
+    width: 950px;
+}
+.pic2 {
+    height: 550px;
+    width: 950px;
+}
+.pic3 {
+    height: 550px;
+    width: 950px;
+}
+.pic4 {
+    height: 550px;
+    width: 950px;
+}
+.pic5 {
+    height: 550px;
+    width: 950px;
+}
+.pic6 {
+    height: 550px;
+    width: 950px;
+}
+.pic7 {
+    height: 550px;
+    width: 950px;
+}
+.pic8 {
+    height: 550px;
+    width: 950px;
+}
+.pic9 {
+    height: 550px;
+    width: 950px;
+}
+.container-fluid {
+    margin-top: 10px;
+}
+.cardstack {
+    margin-top: 100px;
+}
+body{
+    height: 1500px;
+    /* background-color: tomato; */
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: inline;
+    color: white;
+
+}
+
+#ftr P{
+    display: inline-block;
+}
+
+p a {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    color: white;
+    padding: 30px 45px;
+
+}
+.mycards p {
+   
+}
+
+.navbar-nav{
+    padding-left: 700px;
+}
+.black {
+    color: black;
+}
+
