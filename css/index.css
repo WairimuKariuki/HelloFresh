@@ -88,3 +88,26 @@ p a {
         height: 950px;
         color: antiquewhite;
 }
+.col-md-5 {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: white;
+    height: 300px;
+    margin-top: 100px;
+}
+#ingredients1{
+    font-size: 20px;
+}
+#ingredients2{
+    font-size: 20px;
+}
+#ingredients3{
+    font-size: 20px;
+}
+#ingredients4{
+    font-size: 20px;
+}
+#ingredients5{
+    font-size: 20px;
+}

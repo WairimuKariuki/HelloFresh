@@ -31,12 +31,19 @@ $(document).ready(function () {
             beef = 250 * numberPax;
             yeast = 1 * numberPax;
             salt = 1 * numberPax;
+            $("#ingredients1").text("use " + flour + " grams of flour");
+            $("#ingredients2").text("use " + oil + " ml of oil");
+            $("#ingredients3").text("use " + yeast + " table spoon(s) of yeast");
+            $("#ingredients4").text("use " + beef + " grams of beef");
+            $("#ingredients5").text("use " + salt + " pinch(es) of salt");
 
-            alert("use " + flour + " grams of flour");
-            alert("use " + oil + " ml of oil");
-            alert("use " + beef + " grams of beef");
-            alert("use " + yeast + " table spoon(s) of salt");
-            alert("use " + salt + " pinch(es) of salt")
+
+            // alert("use " + flour + " grams of flour");
+            // alert("use " + oil + " ml of oil");
+            // alert("use " + beef + " grams of beef");
+            // alert("use " + yeast + " table spoon(s) of yeast");
+            // alert("use " + salt + " pinch(es) of salt")
         }
+        
     })
 })
