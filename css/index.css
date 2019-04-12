@@ -81,4 +81,10 @@ p a {
 .black {
     color: black;
 }
-
+#backgroundOrder{
+        background-image: url("../img/cook-food.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 950px;
+        color: antiquewhite;
+}
