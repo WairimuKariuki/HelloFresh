@@ -14,14 +14,14 @@
 </head>
 
 <body>
-    <div class="container"></div>
-    <h1 style="text-align:center">Get your Ingredients</h1>
-    <form class="form">
-        <p>How many People</p>
-        <h5>Minimum 1 person</h5>
-        <input type="number" id="number" name="quantity" min="1" max="5">
+    <div class="container">
+        <h1 style="text-align:center">Get your Ingredients</h1>
+        <form class="form">
+            <p>How many People</p>
+            <h5>Minimum 1 person</h5>
+            <input type="number" id="number" name="quantity" min="1" max="5">
 
-        <div class="input-group">
+            <div class="input-group">
                 <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
                     <option selected>Choose...</option>
                     <option value="1">Kenya Style Pork</option>
@@ -31,8 +31,13 @@
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="submit">Button</button>
                 </div>
-            </div> 
-    </form><br><br>
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Example label</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            </div>
+        </form><br><br>
+    </div>
 </body>
 
 </html>
