@@ -24,47 +24,6 @@ h3 {
   margin-top: 0;
 }
 
-ul {
-  position: sticky;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  width: 100%;
-}
-
-li {
-  display: inline;
-}
-
-li a {
-  display: inline;
-  color: white;
-  text-align: center;
-  padding: 55px 65px;
-  text-decoration: none;
-  float: left;
-}
-
-li a:hover {
-  background-color: tomato;
-}
-
-.active {
-  background-color: #4caf4c;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  text-align: center;
-  display: inline;
-  color: white;
-}
 
 .footer {
   display: inline;
@@ -94,47 +53,6 @@ body {
 }
 
 
-#nav {
-  width: 110%;
-  height: 25px;
-  margin-left: 8px;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  width: 100%;
-  display: inline;
-
-}
-
-li {
-  display: inline;
-
-}
-
-li a {
-  display: inline;
-  color: white;
-  text-align: center;
-  padding: 100px 125px;
-  text-decoration: none;
-
-}
-
-li a:hover {
-  background-color: tomato;
-}
-
-.active {
-  background-color: #4caf4c;
-}
-
 .footer {
   position: fixed;
   left: 0;
@@ -146,7 +64,6 @@ li a:hover {
   color: white;
 
 }
-
 p {
   display: inline;
 }
@@ -162,8 +79,6 @@ p a {
   padding: 30px 45px;
   font-family: unset;
 }
-
-
 
 .flip-card {
   background-color: transparent;
@@ -224,4 +139,9 @@ h1 {
 
 .emoji {
   font-size: 40px;
+}
+
+.navbar-nav {
+  padding-left: 650px;
+  height: 100%;
 }
