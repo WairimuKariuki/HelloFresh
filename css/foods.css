@@ -1,0 +1,147 @@
+.card {
+  background-color: transparent;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  justify-content: baseline;
+}
+
+h3 {
+  justify-content: flex-start;
+}
+
+.jumbotron {
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  margin-top: 0;
+}
+
+
+.footer {
+  display: inline;
+}
+
+p a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+  color: white;
+  padding: 30px 45px;
+}
+
+body {
+  background-image: url(/img/pexels-photo-255501.jpeg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  display: inline;
+  color: white;
+
+}
+p {
+  display: inline;
+}
+
+p a {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+  color: white;
+  padding: 30px 45px;
+  font-family: unset;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+}
+
+.flip-card-back {
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+
+.flip {
+  font-family: 'Inconsolata', monospace;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 40px;
+  color: orangered;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-family: 'East Sea Dokdo', cursive;
+  font-family: 'Fascinate Inline', cursive;
+  color: chartreuse;
+}
+
+.emoji {
+  font-size: 40px;
+}
+
+.navbar-nav {
+  padding-left: 650px;
+  height: 100%;
+}
