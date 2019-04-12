@@ -207,9 +207,6 @@ p a {
   z-index: 1;
 }
 
-.nav-link {
-  font-family: serif;
-}
 
 .flip {
   font-family: 'Inconsolata', monospace;
@@ -224,6 +221,7 @@ h1 {
   font-family: 'Fascinate Inline', cursive;
   color: chartreuse;
 }
-.emoji  {
+
+.emoji {
   font-size: 40px;
 }
