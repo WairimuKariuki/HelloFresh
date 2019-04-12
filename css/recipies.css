@@ -1,49 +1,11 @@
 body{
     background-image: url(/img/pexels-photo-255501.jpeg);
     background-attachment: fixed;
-}
-#nav{
-    
-    height: 20%;
-    margin-left: 8px;
-    padding-top: 0%;
-    margin-top: 0%;    
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    width: 100%;
-    display: inline;
-
-}
-
-li {
-    display: inline;
-
-}
-
-li a {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 100px 125px;
-    text-decoration: none;
-    
- 
-
-}
-
-li a:hover {
-    background-color: tomato;
-}
-
-.active {
-    background-color: #4caf4c;
-}
+    background-repeat: no-repeat;
+}    
+.navbar-nav{
+    padding-left: 650px;
+ }
 
 .footer {
     position: fixed;
