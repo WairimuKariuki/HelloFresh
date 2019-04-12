@@ -41,8 +41,8 @@
     margin-top: 100px;
 }
 body{
-    height: 1500px;
-    /* background-color: tomato; */
+    height: 600px;
+    background-color: tomato;
 }
 .footer {
     position: fixed;
@@ -110,4 +110,7 @@ p a {
 }
 #ingredients5{
     font-size: 20px;
+}
+#homeslider {
+    margin-top: 80px;
 }

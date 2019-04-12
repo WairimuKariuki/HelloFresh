@@ -22,6 +22,10 @@ $(document).ready(function () {
             salt = 1 * numberPax;
             alert("use " + ribs + " grams of chickenbreast");
             alert("use " + salt + " pinch(es) of salt");
+            
+            $("#ingredients1").text("use " + flour + " grams of flour");
+            $("#ingredients2").text("use " + oil + " ml of oil");
+
 
         }
 
@@ -37,12 +41,6 @@ $(document).ready(function () {
             $("#ingredients4").text("use " + beef + " grams of beef");
             $("#ingredients5").text("use " + salt + " pinch(es) of salt");
 
-
-            // alert("use " + flour + " grams of flour");
-            // alert("use " + oil + " ml of oil");
-            // alert("use " + beef + " grams of beef");
-            // alert("use " + yeast + " table spoon(s) of yeast");
-            // alert("use " + salt + " pinch(es) of salt")
         }
         
     })
